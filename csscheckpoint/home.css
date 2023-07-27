@@ -1,0 +1,157 @@
+/* Change the display of the navbar to inline */
+.navbar {
+  display: inline;
+}
+
+/* Change the font to Roboto */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Add some creative styling */
+body {
+  background-color: #f2f2f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;/* Réinitialisation des marges et des paddings */
+  body, h1, h2, h3, p, ul, li, form, label, input, textarea, video, audio {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Centrer le contenu du body */
+  body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6; 
+  }
+  
+  /* Ajouter de l'espace autour du header */
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Centrer le contenu du header */
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  /* Centrer le contenu de la navbar */
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Ajouter des styles aux liens de navigation */
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Centrer le contenu du main */
+  main {
+    padding: 20px;
+  }
+  
+  /* Ajouter des styles aux sections */
+  section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Ajouter des styles aux titres des sections */
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Centrer le contenu des ul */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Ajouter des styles aux li des projets */
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Ajouter des styles au footer */
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+}
